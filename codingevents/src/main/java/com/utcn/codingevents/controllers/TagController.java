@@ -1,19 +1,16 @@
 package com.utcn.codingevents.controllers;
 
-import com.utcn.codingevents.data.EventCategoryRepository;
-import com.utcn.codingevents.data.EventRepository;
 import com.utcn.codingevents.data.TagRepository;
-import com.utcn.codingevents.models.Event;
-import com.utcn.codingevents.models.EventCategory;
 import com.utcn.codingevents.models.Tag;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.Optional;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("tags")
