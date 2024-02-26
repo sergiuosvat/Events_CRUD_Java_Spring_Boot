@@ -1,4 +1,4 @@
-# Event Creation and Visualisation with Java Springboot
+# Event Creation and Visualisation with Java Spring Boot
 
 A simple web app that allows users to do CRUD operations on events.
 
